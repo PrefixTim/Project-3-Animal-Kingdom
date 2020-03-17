@@ -14,6 +14,8 @@ public abstract class Animal  {
 		this.name = name;
 		this.birthType = birthType;
 	}
+
+
 	
 	
 	// information about birth type
