@@ -1,7 +1,9 @@
 /* ADD THE EQUALS METHOD AND IMPLEMENT THE COMPARABLE INTERFACE */
 /* MAKE NO OTHER CHANGES TO THIS FILE */
 
-public abstract class Animal  {
+import java.util.Objects;
+
+public abstract class Animal implements Comparable<Animal> {
 
 	private int id;
 	private String name;
@@ -15,8 +17,6 @@ public abstract class Animal  {
 		this.birthType = birthType;
 	}
 
-
-	
 	
 	// information about birth type
 	public final boolean laysEggs() {
@@ -36,6 +36,32 @@ public abstract class Animal  {
 
 	public final String getName() {
 		return name;
+	}
+
+	//add equals method, equivalent if both name(ignore capitalization) and id are same
+	@Override
+	public boolean equals(Object o) {
+		if(o instanceof Animal)
+		{
+			if(((Animal)o).name.equalsIgnoreCase(this.name)
+			&& ((Animal)o).id==this.id)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		else
+		{
+			return false;
+		}
+	}
+	//override compareTo method, Order name in alphabetic order
+	@Override
+	public int compareTo(Animal animal) {
+		return this.name.compareTo(animal.name);
 	}
 
 	// toString method will create text with name, id, birth type, warm/cold blodded, and the description
