@@ -4,10 +4,14 @@ import animals.Animal;
 import animals.BirthType;
 
 public abstract class Mammal extends Animal {
-    private static final boolean WARM_BLOODED = true;
+    public static final boolean WARM_BLOODED = true;
 
     public Mammal(int id, String name) {
-        super(id, name, BirthType.LIVE_BIRTH);
+        this(id, name, BirthType.LIVE_BIRTH);
+    }
+
+    public Mammal(int id, String name, BirthType laysEggs) {
+        super(id, name, laysEggs);
     }
 
     @Override
