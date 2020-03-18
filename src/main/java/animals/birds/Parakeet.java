@@ -1,3 +1,5 @@
+package animals.birds;
+
 public class Parakeet extends Bird {
     public Parakeet(int id, String name) {
         super(id, name);

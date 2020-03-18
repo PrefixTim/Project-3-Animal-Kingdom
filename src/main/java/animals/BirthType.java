@@ -1,3 +1,5 @@
+package animals;
+
 /* MAKE NO CHANGES TO THIS FILE */
 public enum BirthType {
 

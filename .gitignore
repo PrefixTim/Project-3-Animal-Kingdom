@@ -224,3 +224,13 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+.idea/.name
+.idea/checkstyle-idea.xml
+.idea/codeStyles/
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/modules/
+.idea/vcs.xml
+gradle/
