@@ -4,6 +4,7 @@ import animals.birds.CaliforniaCondor;
 import animals.birds.Ostrich;
 import animals.birds.Parakeet;
 import animals.birds.Winged;
+import animals.mamal.BelugaWhale;
 
 import java.util.*;
 
