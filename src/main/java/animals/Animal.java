@@ -45,8 +45,8 @@ public abstract class Animal implements Comparable<Animal> {
         if (this == o) return true;
         if (!(o instanceof Animal)) return false;
         Animal animal = (Animal) o;
-        return getId() == animal.getId() &&
-                getName().equalsIgnoreCase(animal.getName());
+        return this.getId() == animal.getId() &&
+                this.getName().equalsIgnoreCase(animal.getName());
     }
 
     //override compareTo method, Order name in alphabetic order
