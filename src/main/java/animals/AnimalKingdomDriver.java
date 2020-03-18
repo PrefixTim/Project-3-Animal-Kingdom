@@ -4,7 +4,12 @@ import animals.birds.CaliforniaCondor;
 import animals.birds.Ostrich;
 import animals.birds.Parakeet;
 import animals.birds.Winged;
+import animals.fish.Goldfish;
+import animals.fish.GreatWhiteShark;
 import animals.mamal.BelugaWhale;
+import animals.mamal.BlueWhale;
+import animals.mamal.Elephant;
+import animals.mamal.Horse;
 
 import java.util.*;
 

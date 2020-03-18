@@ -1,4 +1,4 @@
-package animals.fish;
+package animals;
 
 public interface WaterDweller {
     public boolean breathesAir();

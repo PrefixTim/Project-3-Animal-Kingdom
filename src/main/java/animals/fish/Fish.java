@@ -2,6 +2,7 @@ package animals.fish;
 
 import animals.Animal;
 import animals.BirthType;
+import animals.WaterDweller;
 
 public abstract class Fish extends Animal implements WaterDweller {
     public Fish(int id, String name, BirthType birthType) {
