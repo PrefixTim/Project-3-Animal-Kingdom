@@ -1,7 +1,5 @@
-/* ADD THE EQUALS METHOD AND IMPLEMENT THE COMPARABLE INTERFACE */
+package animals;/* ADD THE EQUALS METHOD AND IMPLEMENT THE COMPARABLE INTERFACE */
 /* MAKE NO OTHER CHANGES TO THIS FILE */
-
-import java.util.Objects;
 
 public abstract class Animal implements Comparable<Animal> {
 
@@ -9,7 +7,7 @@ public abstract class Animal implements Comparable<Animal> {
 	private String name;
 	private BirthType birthType;
 
-	public static final String ANIMAL_DESCRIPTION = "Animal";
+	public static final String ANIMAL_DESCRIPTION = "animals.Animal";
 
 	public Animal(int id, String name, BirthType birthType) {
 		this.id = id;

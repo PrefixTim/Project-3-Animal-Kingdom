@@ -1,3 +1,10 @@
+package animals;
+
+import animals.birds.CaliforniaCondor;
+import animals.birds.Ostrich;
+import animals.birds.Parakeet;
+import animals.birds.Winged;
+
 import java.util.*;
 
 public class AnimalKingdomDriver {
@@ -9,7 +16,7 @@ public class AnimalKingdomDriver {
 		animalList.add(new Goldfish(2, "Blingy Gold Gold"));
 		animalList.add(new GreatWhiteShark(3, "Toothy the Shark"));
 		animalList.add(new Parakeet(4, "Tweety Parakeety"));
-		animalList.add(new Parakeet(5, "Pretty Bird Pretty"));
+		animalList.add(new Parakeet(5, "Pretty animals.birds.Bird Pretty"));
 		animalList.add(new CaliforniaCondor(6, "Cali Condor the Great"));
 		animalList.add(new Ostrich(7, "Head in the Sand Hallie"));
 		animalList.add(new BelugaWhale(8, "BabyBeluga O\'BabyBeluga"));
@@ -31,7 +38,7 @@ public class AnimalKingdomDriver {
 
 		System.out.println("\n\n******TEST WARM/COLD BLOODED");
 		System.out.println("All warm blooded animals. Should print: " );
-		System.out.println("BabyBeluga O\'BabyBeluga   Cali Condor the Great   Donald Duck E. Platt   Head in the Sand Hallie   Horsey McHorseface   Mr. Ed the Fourth   Never Irrelephant   Pretty Bird Pretty   Spouty the Blue Whale   Tweety Parakeety");
+		System.out.println("BabyBeluga O\'BabyBeluga   Cali Condor the Great   Donald Duck E. Platt   Head in the Sand Hallie   Horsey McHorseface   Mr. Ed the Fourth   Never Irrelephant   Pretty animals.birds.Bird Pretty   Spouty the Blue Whale   Tweety Parakeety");
 		for(Animal animal : animalList) {
 			if(animal.isWarmBlooded()) {
 				System.out.print(animal.getName() + "   ");
@@ -59,7 +66,7 @@ public class AnimalKingdomDriver {
 		System.out.println();
 		
 		System.out.println("\nAll egg laying animals. Should print: ");
-		System.out.println("Blingy Gold Gold   Cali Condor the Great   Donald Duck E. Platt   Goldie Goldfishy   Head in the Sand Hallie   Pretty Bird Pretty   Tweety Parakeety   " );
+		System.out.println("Blingy Gold Gold   Cali Condor the Great   Donald Duck E. Platt   Goldie Goldfishy   Head in the Sand Hallie   Pretty animals.Bird Pretty   Tweety Parakeety   " );
 		for(Animal animal : animalList) {
 			if(animal.laysEggs()) {
 				System.out.print(animal.getName() + "   ");
