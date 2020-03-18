@@ -6,7 +6,11 @@ import animals.WaterDweller;
 
 public abstract class Fish extends Animal implements WaterDweller {
     public Fish(int id, String name, BirthType birthType) {
-        super(id, name,birthType);
+        super(id, name, birthType);
+    }
+
+    public Fish(int id, String name) {
+        super(id, name, BirthType.LAYS_EGGS);
     }
 
     @Override

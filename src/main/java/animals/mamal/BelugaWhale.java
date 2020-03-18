@@ -1,7 +1,5 @@
 package animals.mamal;
 
-import animals.Endangered;
-
 public class BelugaWhale extends Whale {
     public static final String BELUGA_WHALE_DESCRIPTION = "Beluga Whale: a kind of whale ";
 

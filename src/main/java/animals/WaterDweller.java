@@ -1,5 +1,5 @@
 package animals;
 
 public interface WaterDweller {
-    public boolean breathesAir();
+    boolean breathesAir();
 }
