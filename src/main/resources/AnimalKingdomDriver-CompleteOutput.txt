@@ -2,17 +2,17 @@
 Should print 13 animals, ordered in alphabetic order by name:
 
 BabyBeluga O'BabyBeluga (id=8):	Live Birth	Warm Blooded	Mammal	Whale (lives in water, breathes air)	Beluga Whale
-Blingy Gold Gold (id=2):	Lays Eggs	Cold Blooded	animals.fish.Fish (lives in water, does not breathe air)	Goldfish
+Blingy Gold Gold (id=2):	Lays Eggs	Cold Blooded	animals.fish.animals.fish.Fish (lives in water, does not breathe air)	Goldfish
 Cali Condor the Great (id=6):	Lays Eggs	Warm Blooded	animals.birds.Bird (has wings)	California Condor (flies, endangered)
 Donald Duck E. Platt (id=11):	Lays Eggs	Warm Blooded	Mammal	Duckbilled Platypus
-Goldie Goldfishy (id=1):	Lays Eggs	Cold Blooded	animals.fish.Fish (lives in water, does not breathe air)	Goldfish
+Goldie Goldfishy (id=1):	Lays Eggs	Cold Blooded	animals.fish.animals.fish.Fish (lives in water, does not breathe air)	Goldfish
 Head in the Sand Hallie (id=7):	Lays Eggs	Warm Blooded	animals.birds.Bird (has wings)	animals.Ostrich (does not fly)
 Horsey McHorseface (id=12):	Live Birth	Warm Blooded	Mammal	Horse
 Mr. Ed the Fourth (id=13):	Live Birth	Warm Blooded	Mammal	Horse
 Never Irrelephant (id=10):	Live Birth	Warm Blooded	Mammal	Elephant (endangered)
 Pretty animals.birds.Bird Pretty (id=5):	Lays Eggs	Warm Blooded	animals.Bird (has wings)	animals.Parakeet (flies)
 Spouty the Blue Whale (id=9):	Live Birth	Warm Blooded	Mammal	Whale (lives in water, breathes air)	Blue Whale (endangered)
-Toothy the Shark (id=3):	Live Birth	Cold Blooded	animals.fish.Fish (lives in water, does not breathe air)	Great White Shark (endangered)
+Toothy the Shark (id=3):	Live Birth	Cold Blooded	animals.fish.animals.fish.Fish (lives in water, does not breathe air)	Great White Shark (endangered)
 Tweety Parakeety (id=4):	Lays Eggs	Warm Blooded	animals.birds.Bird (has wings)	animals.birds.Parakeet (flies)
 
 

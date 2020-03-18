@@ -15,11 +15,6 @@ public abstract class Bird extends Animal implements Winged {
     }
 
     @Override
-    public String getDescription() {
-        return "Birds are warm-blooded animals that have wings and lay eggs";
-    }
-
-    @Override
     public boolean canFly() {
         return true;
     }
