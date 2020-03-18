@@ -104,8 +104,13 @@ public class AnimalKingdomDriver {
         System.out.println("\n\n******TEST WATER DWELLERS");
         System.out.println("Should print 5 lines: Beluga breathes air, Blingy breathes water, Goldie breathes water, Spouty breathes air, and Toothy breathes water.\n");
         for (Animal animal : animalList) {
+            if(animal instanceof WaterDweller)
+            {
+                WaterDweller waterDweller = (WaterDweller) animal;
+                String breathe = waterDweller.breathesAir() ? " breathe air!": " breathe water !";
+                System.out.println(animal.getName() + breathe);
 
-            // YOUR CODE HERE
+            }
         }
 
         System.out.println("\n\n******TEST ENDANGERED ANIMALS");
